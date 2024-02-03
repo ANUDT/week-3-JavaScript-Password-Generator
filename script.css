@@ -12,7 +12,7 @@ body {
     display:flex;
     align-items: center;
     justify-content: center;
-    background-color: rgb(233, 133, 153);
+    background-color: rgb(238, 207, 212);
 }
 
 .inputbox {
@@ -36,9 +36,7 @@ color: #000;
 
 .inputBox input {
 position: relative;
-border-color: blue;
-width: 120%;
-height:150px;
-outline-offset:
-
+border-color:#673cac;
+width: 100%;
  }
+ 
