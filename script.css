@@ -35,8 +35,10 @@ color: #000;
  }
 
 .inputBox input {
+align-content:center;
 position: relative;
 border-color:#673cac;
+border-radius: 30%;
 width: 100%;
  }
  
