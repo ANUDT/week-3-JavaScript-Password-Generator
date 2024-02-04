@@ -28,19 +28,33 @@ var lowercasePref = confirm ("Do you want uppercase in your password")
 var lowercasePref = confirm ("Do you want namubers in your password")
 var lowercasePref = confirm ("Do you want special characters in your password")
 
-var passwordLenght = prompt ("How long do you wnat the password to be?")
+alert ("you must selct at least one of the type for your password")
+
+var passwordLenght = prompt ("How long do you want the password to be?")
 
 function passwordLenght()
 }
-
-  if (number in passwordLenght = < 8) {
-then (alert) ="password lenght is not long enough";
+ if (number in passwordLenght = < 8) {
+  then (alert) ="password lenght is not long enough";
 
 if (number in passwordLenght = > 120) {
   then (alert) ="password lenght is too long";
-  }
-  var badColor = "#66cc66";
+    }
+ 
+    var passwordCharacters = "";
+
+    if (lowercasePref) {
+      passwordCharacters += lowercase;
 
 
-}
+
+
+
+
+
+
+
+
+      
+    }
 
