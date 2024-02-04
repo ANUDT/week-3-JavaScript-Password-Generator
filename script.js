@@ -66,14 +66,6 @@ for (var i = 0; i <passwordLenght; i++) {
 }
 
 console.log(password)
-
-
-
-
-
-
-
-
-      
+ 
     }
 
