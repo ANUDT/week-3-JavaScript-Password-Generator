@@ -14,6 +14,8 @@ function generatePassword () {
   return "password";
 }
 // Add event listener to generate button
+
+{
 generateBtn.addEventListener("click", writePassword);
 
 var lowercase = "abcdefghijklmnopqrstuvwxyz";
@@ -29,7 +31,8 @@ var lowercasePref = confirm ("Do you want special characters in your password")
 var passwordLenght = prompt ("How long do you wnat the password to be?")
 
 function passwordLenght()
-{
+}
+
   if (number in passwordLenght = < 8) {
 then (alert) ="password lenght is not long enough";
 
