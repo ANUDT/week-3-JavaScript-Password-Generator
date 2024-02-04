@@ -64,8 +64,9 @@ if (specialPref) {
 for (var i = 0; i <passwordLenght; i++) {
   password += passwordCharacters.charAt(Math.floor(Math.random()* passwordCharacters
 }
-
+ }
+ 
 console.log(password)
  
-    }
+    
 
