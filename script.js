@@ -16,5 +16,10 @@ function generatePassword () {
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
 
+var lowercase = "abcdefghijklmnopqrstuvwxyz";
+var uppercase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+var numbers = "0123456789"
+var special = "!#$%&'()*+,-./:;<=>?@[\]^_`{|}~"
+
 
 
