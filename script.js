@@ -21,5 +21,10 @@ var uppercase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 var numbers = "0123456789"
 var special = "!#$%&'()*+,-./:;<=>?@[\]^_`{|}~"
 
+var lowercasePref = confirm ("Do you want lowercase in your password")
+var lowercasePref = confirm ("Do you want uppercase in your password")
+var lowercasePref = confirm ("Do you want namubers in your password")
+var lowercasePref = confirm ("Do you want special characters in your password")
 
+var passwordLenght = prompt ("How long do you wnat the password to be?")
 
