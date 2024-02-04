@@ -1,19 +1,16 @@
-// Assignment Code
-var generateBtn = document.querySelector("#generate");
+var generateBtn = document.querySelector("#generate");   
+var password=document.getElementById("password");                                                          
 
-// Write password to the #password input
 function writePassword() {
   var password = generatePassword();
   var passwordText = document.querySelector("#password");
-
+ 
   passwordText.value = password;
-
 }
 
 function generatePassword () {
   return "password";
 }
-// Add event listener to generate button
 
 {
 generateBtn.addEventListener("click", writePassword);
@@ -34,6 +31,9 @@ var passwordLenght = prompt ("How long do you want the password to be?")
 
 
 function passwordLenght()
+var chars = "0123456789abcdefghijklmnopqrstuvwxyz!@#$%^&*()ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+ var passwordLength = 12;
+ var password = "";
 }
  if (number in passwordLenght = < 8) {
   then (alert) ="password lenght is not long enough";
@@ -66,6 +66,7 @@ for (var i = 0; i <passwordLenght; i++) {
 }
  }
  
+ var password=document.getElementById("password");
 console.log(password)
  
     
