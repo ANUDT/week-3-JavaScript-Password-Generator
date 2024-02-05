@@ -27,7 +27,7 @@ var specialPref = confirm ("Do you want special characters in your password")
 
 alert ("you must selct at least one of the type for your password")
 
-function() {
+function getPasswordLength() {
 var passwordLenght = prompt ("How long do you want the password to be?")
 var chars = "0123456789abcdefghijklmnopqrstuvwxyz!@#$%^&*()ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 var passwordLength = 8;
@@ -35,7 +35,7 @@ var password = "";
 var passwordCharacters = "";
 }
 
-if (number in passwordLenght = < 8) {
+if (number in passwordLenght (= < 8) {
   then (alert) ="password lenght is not long enough";
 
 if (number in passwordLenght = > 120) {
@@ -75,6 +75,5 @@ for (var i = 0; i <= passwordLength; i++) {
  var password=document.getElementById("password");
 
 console.log(password)
- 
-    
+}
 
