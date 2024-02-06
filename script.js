@@ -9,21 +9,27 @@ function writePassword() {
 }
 
 function generatePassword () {
-  return "password";
-}
+  var lwrcase = "abcdefghijklmnopqrstuvwxyz";
+  var uprcase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+  var nbrs = "0123456789"
+  var spec = "!#$%&'()*+,-./:;<=>?@[\]^_`{|}~"
 
-{
+  var passwordCharacters = "";
+  
+  var lwrcasePref = confirm ("Do you want lowercase in your password")
+  var uprcasePref = confirm ("Do you want uppercase in your password")
+  var nbrsPref = confirm ("Do you want numbers in your password")
+  var specPref = confirm ("Do you want special characters in your password")
+  
+  var passwordLength = prompt ("How long do you want the password to be?")
+  if (passwordLength < 8) {
+    alert("password length is not long enough");
+    return ("")
+  }
+
+  
 generateBtn.addEventListener("click", writePassword);
 
-var lwrcase = "abcdefghijklmnopqrstuvwxyz";
-var uprcase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-var nbrs = "0123456789"
-var spec = "!#$%&'()*+,-./:;<=>?@[\]^_`{|}~"
-
-var lwrcasePref = confirm ("Do you want lowercase in your password")
-var uprcasePref = confirm ("Do you want uppercase in your password")
-var nbrsPref = confirm ("Do you want numbers in your password")
-var specPref = confirm ("Do you want special characters in your password")
 
 alert ("you must selct at least one of the type for your password")
 
