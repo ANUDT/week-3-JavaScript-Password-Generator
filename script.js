@@ -15,15 +15,15 @@ function generatePassword () {
 {
 generateBtn.addEventListener("click", writePassword);
 
-var lowercase = "abcdefghijklmnopqrstuvwxyz";
-var uppercase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-var numbers = "0123456789"
-var special = "!#$%&'()*+,-./:;<=>?@[\]^_`{|}~"
+var lwrcase = "abcdefghijklmnopqrstuvwxyz";
+var uprcase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+var nbrs = "0123456789"
+var spec = "!#$%&'()*+,-./:;<=>?@[\]^_`{|}~"
 
-var lowercasePref = confirm ("Do you want lowercase in your password")
-var uppercasecasePref = confirm ("Do you want uppercase in your password")
-var numbersPref = confirm ("Do you want numbers in your password")
-var specialPref = confirm ("Do you want special characters in your password")
+var lwrcasePref = confirm ("Do you want lowercase in your password")
+var uprcasePref = confirm ("Do you want uppercase in your password")
+var nbrsPref = confirm ("Do you want numbers in your password")
+var specPref = confirm ("Do you want special characters in your password")
 
 alert ("you must selct at least one of the type for your password")
 
@@ -43,19 +43,19 @@ if (number in passwordLenght = > 120) {
     }
   
 if (lowercasePref) {
-  passwordCharacters += lowercase;
+  passwordCharacters += lwrcase;
 }
 
 if (uppercasePref) {
-  passwordCharacters += uppercase;
+  passwordCharacters += uprcase;
 }
 
 if (numbersPref) {
-  passwordCharacters += numbers;
+  passwordCharacters += nbrs;
 }
 
 if (specialPref) {
-  passwordCharacters += special;
+  passwordCharacters += spec;
 }
 
 for (var i = 0; i <= passwordLength; i++) {
