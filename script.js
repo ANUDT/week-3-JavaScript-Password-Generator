@@ -27,7 +27,7 @@ function generatePassword () {
     return ("")
   }
 
-i if (passwordLength > 120) {
+if (passwordLength > 120) {
   alert ("password length is too long");
   return ("")
 }
@@ -60,18 +60,8 @@ for (var i = 0; i < passwordLength; i++) {
   var randomNumber = Math.floor(Math.random() * passwordCharacters.length);
   password += passwordCharacters.substring(randomNumber, randomNumber +1);
  }
-
- document.getElementById("password").value = password;
+return (password)
  }
 
- function copyPassword() {
-  var copyText = document.getElementById("password");
-  copyText.select();
-  document.execCommand("copy");  
-}
- 
- var password=document.getElementById("password");
-
-console.log(password)
-}
+ generateBtn.addEventListener("click", writePassword)
 
