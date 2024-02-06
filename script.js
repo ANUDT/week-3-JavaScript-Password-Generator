@@ -48,6 +48,12 @@ if (specPref) {
   passwordCharacters += spec;
 }
 
+if (passwordCharacters === "")
+  {
+    alert ("you must select at least one of the type for your password")
+    return ("")
+  }
+
 for (var i = 0; i <= passwordLength; i++) {
   var randomNumber = Math.floor(Math.random() * chars.length);
   password += chars.substring(randomNumber, randomNumber +1);
