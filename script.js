@@ -1,11 +1,11 @@
 var generateBtn = document.querySelector("#generate");   
-var password=document.getElementById("password");                                                          
+                                                     
 
 function writePassword() {
   var password = generatePassword();
   var passwordText = document.querySelector("#password");
  
-  passwordText.value = password;
+  passwordText.textContent = password;
 }
 
 function generatePassword () {
