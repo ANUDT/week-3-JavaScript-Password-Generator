@@ -27,40 +27,24 @@ function generatePassword () {
     return ("")
   }
 
-  
-generateBtn.addEventListener("click", writePassword);
-
-
-alert ("you must selct at least one of the type for your password")
-
-function getPasswordLength() {
-var passwordLenght = prompt ("How long do you want the password to be?")
-var chars = "0123456789abcdefghijklmnopqrstuvwxyz!@#$%^&*()ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-var passwordLength = 8;
-var password = "";
-var passwordCharacters = "";
+i if (passwordLength > 120) {
+  alert ("password length is too long");
+  return ("")
 }
-
-if (number in passwordLenght (= < 8) {
-  then (alert) ="password lenght is not long enough";
-
-if (number in passwordLenght = > 120) {
-  then (alert) ="password lenght is too long";
-    }
   
-if (lowercasePref) {
+if (lwrcasePref) {
   passwordCharacters += lwrcase;
 }
 
-if (uppercasePref) {
+if (uprcasePref) {
   passwordCharacters += uprcase;
 }
 
-if (numbersPref) {
+if (nbrsPref) {
   passwordCharacters += nbrs;
 }
 
-if (specialPref) {
+if (specPref) {
   passwordCharacters += spec;
 }
 
