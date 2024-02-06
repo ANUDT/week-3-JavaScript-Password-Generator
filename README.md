@@ -42,3 +42,5 @@ https://github.com/ANUDT/week-3-JavaScript-Password-Generator
 
 
 https://github.com/ANUDT/week-3-JavaScript-Password-Generator.git
+
+![image](https://github.com/ANUDT/week-3-JavaScript-Password-Generator/assets/152813453/4d50eb03-e368-47f9-9f1f-93af3c5ce8e4)
