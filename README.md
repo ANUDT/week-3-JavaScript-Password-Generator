@@ -33,3 +33,12 @@ THEN a password is generated that matches the selected criteria
 WHEN the password is generated
 THEN the password is either displayed in an alert or written to the page
 ```
+
+
+https://github.com/ANUDT/week-3-JavaScript-Password-Generator
+
+
+ https://anudt.github.io/week-3-JavaScript-Password-Generator/
+
+
+https://github.com/ANUDT/week-3-JavaScript-Password-Generator.git
